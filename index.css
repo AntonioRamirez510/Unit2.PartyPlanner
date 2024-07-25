@@ -7,6 +7,7 @@ main{
 }
 h1{
   text-align: center;
+  color:#FFB6C1;
 }
 h2{
   padding: 0px;
@@ -25,6 +26,8 @@ p{
 }
 ul{
   padding:0px;
+  justify-content: center;
+  align-content: center;
 }
 img{
   height:200px;
@@ -33,11 +36,33 @@ img{
   border-radius: 10%;
 }
 section{
-  width: 100%;
+  max-width: 470px;
+  min-width: 470px;
+  display: block;
+  /* justify-self: center; */
   background-color: darkgreen;
   border-radius: 40px;
   /* border: #FFB6C1 thin solid; */
   box-shadow: #FFB6C1 5px 5px;
   height: 400px;
   /* justify-content: center; */
+}
+li{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  list-style: none;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  border: solid #FFB6C1 thin;
+  border-radius: 3px;
+  padding: 10px;
+  width: 470px;
+  align-self: center;
+}
+label{
+  color:#FFB6C1;
 }
